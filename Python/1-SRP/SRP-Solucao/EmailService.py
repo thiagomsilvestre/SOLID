@@ -6,12 +6,11 @@ class EmailService:
         return '@' not in email
 
     def enviar(self, de, nome, para, assunto, mensagem):
-        
-        Email = Email(config)
-        Email.destinatario(nome, para)
-        Email.assunto(assunto)
-        Email.mensagem(mensagem)
-        Email.enviar()
+        email = Email(config)
+        email.destinatario(nome, para)
+        email.assunto(assunto)
+        email.mensagem(mensagem)
+        email.enviar()
         
         print('E-mail enviado')
 
