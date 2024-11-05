@@ -1,4 +1,5 @@
 <?php
+
 class ClienteRepository
 {
     public function adicionarCliente($cliente)

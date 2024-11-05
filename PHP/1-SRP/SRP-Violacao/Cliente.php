@@ -24,11 +24,11 @@ class Cliente
         $stmt->bindParam(':cpf', $cpf, PDO::PARAM_STR);
         $stmt->execute();
 
-        $Email = new Email($config);
-        $Email->destinatario($this->nome, $this->email);
-        $Email->assunto('Bem Vindo.');
-        $Email->mensagem('Parabéns! Você está cadastrado.');
-        $Email->enviar();
+        $email = new Email($config);
+        $email->destinatario($this->nome, $this->email);
+        $email->assunto('Bem Vindo.');
+        $email->mensagem('Parabéns! Você está cadastrado.');
+        $email->enviar();
 
         return "Cliente cadastrado com sucesso!";
     }

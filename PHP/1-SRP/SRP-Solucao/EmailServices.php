@@ -1,4 +1,5 @@
 <?php
+
 class EmailServices
 {
     public function isValid($email)

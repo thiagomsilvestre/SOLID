@@ -1,6 +1,6 @@
 ﻿<?php
-require_once('EmailServices.php');
-require_once('CPFServices.php');
+require_once 'EmailServices.php';
+require_once 'CPFServices.php';
 
 class Cliente
 {

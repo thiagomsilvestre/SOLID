@@ -1,13 +1,15 @@
 ﻿<?php
-require_once('EmailServices.php');
-require_once('ClienteRepository.php');
+
+require_once 'EmailServices.php';
+require_once 'ClienteRepository.php';
 
 class ClienteService
 {
-    function adicionarCliente($cliente)
+    public function adicionarCliente($cliente)
     {
-        if (!$cliente->isValid())
+        if(!$cliente->isValid()){
             return "Dados inválidos";
+        }
 
         $repo = new ClienteRepository();
         $repo->adicionarCliente($cliente);

@@ -1,6 +1,7 @@
 <?php
-require_once('ClienteService.php');
-require_once('Cliente.php');
+
+require_once "ClienteService.php";
+require_once "Cliente.php";
 
 $clienteService = new ClienteService();
 
