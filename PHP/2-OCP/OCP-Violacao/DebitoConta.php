@@ -2,15 +2,15 @@
 
 class DebitoConta
 {
-    const Corrente = 1;
-    const Poupanca = 2;
+    const CORRENTE = 1;
+    const POUPANCA = 2;
     function debitar(float $valor, string $conta, int $tipo)
     {
-        if ($tipo == self::Corrente) {
+        if ($tipo == self::CORRENTE) {
             echo 'corrente';
             // Debita Conta Corrente
         }
-        if ($tipo == self::Poupanca) {
+        if ($tipo == self::POUPANCA) {
             echo 'poupança';
             // Valida Aniversário da Conta
             // Debita Conta Poupança
