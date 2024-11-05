@@ -1,10 +1,11 @@
 <?php
-require_once('Interfaces/ICPFServices.php');
+require_once 'Interfaces/ICPFServices.php';
 
 class CPFServices implements ICPFServices
 {
     public function isValid($cpf)
     {
-        return (strlen($cpf) == 11);
+        $cpfLength = strlen($cpf);
+        return $cpfLength == 11;
     }
 }

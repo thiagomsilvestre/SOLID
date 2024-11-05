@@ -1,6 +1,6 @@
 ﻿<?php
-require_once('Interfaces/ICPFServices.php');
-require_once('Interfaces/IEmailServices.php');
+require_once 'Interfaces/ICPFServices.php';
+require_once 'Interfaces/IEmailServices.php';
 
 class Cliente
 {

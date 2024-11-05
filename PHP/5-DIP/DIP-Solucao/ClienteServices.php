@@ -1,8 +1,8 @@
 ﻿<?php
-require_once('Interfaces/IClienteServices.php');
-require_once('Interfaces/IClienteRepository.php');
-require_once('Interfaces/IEmailServices.php');
-require_once('Cliente.php');
+require_once 'Interfaces/IClienteServices.php';
+require_once 'Interfaces/IClienteRepository.php';
+require_once 'Interfaces/IEmailServices.php';
+require_once 'Cliente.php';
 
 
 class ClienteServices implements IClienteServices

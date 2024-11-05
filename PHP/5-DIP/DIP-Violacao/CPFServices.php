@@ -3,6 +3,7 @@ class CPFServices
 {
     public function isValid(string $cpf)
     {
-        return (strlen($cpf) == 11);
+        $cpfLength = strlen($cpf);
+        return $cpfLength == 11;
     }
 }

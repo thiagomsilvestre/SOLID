@@ -1,5 +1,5 @@
 <?php
-require_once('Interfaces/IEmailServices.php');
+require_once 'Interfaces/IEmailServices.php';
 
 class EmailServices implements IEmailServices
 {

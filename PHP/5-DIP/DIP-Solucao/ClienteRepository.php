@@ -1,6 +1,6 @@
 <?php
-require_once('Cliente.php');
-require_once('Interfaces/IClienteRepository.php');
+require_once 'Cliente.php';
+require_once 'Interfaces/IClienteRepository.php';
 
 class ClienteRepository implements IClienteRepository
 {
