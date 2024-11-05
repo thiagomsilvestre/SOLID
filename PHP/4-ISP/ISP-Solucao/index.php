@@ -1,7 +1,7 @@
 <?php
 
-require_once('CadastroCliente.php');
-require_once('CadastroProduto.php');
+require_once 'CadastroCliente.php';
+require_once 'CadastroProduto.php';
 
 echo "\n\n";
 echo "CadastroCliente";

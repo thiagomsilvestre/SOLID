@@ -1,5 +1,5 @@
 <?php
-require_once('Interfaces/ICadastroProduto.php');
+require_once 'Interfaces/ICadastroProduto.php';
 
 class CadastroProduto implements ICadastroProduto
 {

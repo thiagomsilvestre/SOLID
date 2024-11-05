@@ -1,5 +1,5 @@
 ﻿<?php
-require_once('Interfaces/ICadastroCliente.php');
+require_once 'Interfaces/ICadastroCliente.php';
 
 class CadastroCliente implements ICadastroCliente
 {
